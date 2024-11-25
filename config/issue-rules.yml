@@ -9,7 +9,7 @@ rules:
 - contains: enpm611
   assign: ['enpm611']
 - contains: ['maybe']
-  assign: question
+  assign: ['question']
 - contains: enpm613
   assign: ['enpm613rg']
 # List that always runs after rules and nomatches. Look for missing sets of tags here.
