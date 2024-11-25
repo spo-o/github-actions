@@ -11,7 +11,7 @@ rules:
 - contains: ['maybe']
   assign: question
 - contains: enpm613
-  assign: ['enpm613RG']
+  assign: ['enpm613rg']
 # List that always runs after rules and nomatches. Look for missing sets of tags here.
 tags:
 - noneIn: ['bug', 'enhancement', 'question'] # If no bug, enhancement, or question labels are added, label with 'triage'
