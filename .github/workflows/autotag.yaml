@@ -15,4 +15,4 @@ jobs:
     - uses: damccorm/tag-ur-it@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        configuration-path: "issue-rules.yml"
+        configuration-path: "config/issue-rules.yml"
