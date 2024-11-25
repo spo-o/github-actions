@@ -11,7 +11,6 @@ rules:
 - contains: ['maybe']
   assign: question
 - contains: enpm613
-  addLabels: ['enpm613RG']
   assign: ['enpm613RG']
 # List that always runs after rules and nomatches. Look for missing sets of tags here.
 tags:
