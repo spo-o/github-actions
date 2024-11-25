@@ -10,7 +10,7 @@ rules:
   assign: ['enpm611']
 - contains: ['maybe']
   assign: ['question']
-- contains: enpm613
+- contains: ['enpm613']
   assign: ['wontfix']
 # List that always runs after rules and nomatches. Look for missing sets of tags here.
 tags:
